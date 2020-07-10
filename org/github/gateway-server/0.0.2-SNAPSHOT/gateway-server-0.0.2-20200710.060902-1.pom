@@ -68,7 +68,7 @@
                     <!--设置部署目录-->
                     <altDeploymentRepository>
                         <!--repository 本地生成的文件夹名称-->
-                        internal.repo::default::file://${project.build.directory}/repository
+                        internal.repo::default::file://${project.build.directory}/git-maven/repository
                     </altDeploymentRepository>
                 </configuration>
             </plugin>
@@ -86,7 +86,7 @@
                     <!--禁用网页处理-->
                     <noJekyll>true</noJekyll>
                     <!--部署的目录，这里是和上面的 maven-deploy-plugin 的 configuration.altDeploymentRepository 对应-->
-                    <outputDirectory>${project.build.directory}/repository
+                    <outputDirectory>${project.build.directory}/git-maven/repository
                     </outputDirectory> <!-- matches distribution management repository url above -->
                     <!-- refs/heads/远程分支名-->
                     <branch>refs/heads/master</branch>
