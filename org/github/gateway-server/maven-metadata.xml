@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.github</groupId>
+  <artifactId>gateway-server</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200710060318</lastUpdated>
+  </versioning>
+</metadata>
